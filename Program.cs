@@ -1,4 +1,6 @@
 ﻿
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace HomeWork2
 {
     public class Phone 
@@ -45,16 +47,13 @@ namespace HomeWork2
             Xiaomi.model = "12t";
             Xiaomi.weight = 0.22;
 
-            Console.Write("Iphone number is ");
-            Console.WriteLine(Iphone.number.ToString("+###-(##)-###-##-##"));
+            Console.WriteLine($"Iphone number is {Iphone.number.ToString("+###-(##)-###-##-##")}");
             Console.WriteLine($"Iphone model is {Iphone.model}");
             Console.WriteLine($"Iphone weight is {Iphone.weight}");
-            Console.Write("Iphone number is ");
-            Console.WriteLine(Samsung.number.ToString("+###-(##)-###-##-##"));
+            Console.WriteLine($"Samsung number is {Samsung.number.ToString("+###-(##)-###-##-##")}");
             Console.WriteLine($"Samsung model is {Samsung.model}");
             Console.WriteLine($"Samsung weight is {Samsung.weight}");
-            Console.Write("Samsung number is ");
-            Console.WriteLine(Xiaomi.number.ToString("+###-(##)-###-##-##"));
+            Console.WriteLine($"Xiaomi number is {Xiaomi.number.ToString("+###-(##)-###-##-##")}");
             Console.WriteLine($"Xiaomi model is {Xiaomi.model}");
             Console.WriteLine($"Xiaomi weight is {Xiaomi.weight}");
 
