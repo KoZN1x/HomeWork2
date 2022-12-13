@@ -62,9 +62,9 @@ namespace HomeWork2
             Samsung.ReceiveCall("Dima");
             Xiaomi.ReceiveCall("Alex");
 
-            Iphone.GetNumber();
-            Samsung.GetNumber();
-            Xiaomi.GetNumber();
+            Console.WriteLine(Iphone.GetNumber());
+            Console.WriteLine(Samsung.GetNumber());
+            Console.WriteLine(Xiaomi.GetNumber()); 
 
             Iphone.ReceiveCall("Nikita", 375294225312);
             Samsung.ReceiveCall("Dima", 375336841286);
